@@ -143,5 +143,36 @@ jQuery(document).ready(function ($) {
 		
 		
 	}
+{
+  "@context": "http://www.schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "KanatVadim",
+  "url": "http://kanatvadim.ml",
+  "logo": "http://kanatvadim.ml/images/logo.png",
+  "image": "http://kanatvadim.ml/images/girl.png",
+  "description": "Купить джутовый канат в Минске, а также льняной, сизалевый, хб канаты и утеплители",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Рынок стройматериалов Уручье",
+    "addressLocality": "Минск",
+    "addressRegion": "Минск",
+    "postalCode": "220047",
+    "addressCountry": "Беларусь"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "53.958516",
+    "longitude": "27.695823"
+  },
+  "hasMap": "No",
+  "openingHours": "Tu, We, Th, Fr, Sa, Su 08:00-22:00",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+375296725644",
+    "telephone": "+375296079130",
+    "contactType": "sales"
+    
+  }
+}
 
 });
