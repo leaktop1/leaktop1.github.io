@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html><head>
 
 <title>Купить сизалевый канат в Минске дёшево!</title><link href="css/bootstrap.css" rel="stylesheet" type="text/css"><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -31,6 +31,7 @@
 
 
 <body>
+
 	<!-- header-section-starts -->
 	<div class="c-header" id="home">
 		<div class="top-header">
@@ -40,17 +41,15 @@
 			</div>
 				<div class="header-top-right">
 				<!-- start search-->
-				    <div class="search-box">
-					    <div id="sb-search" class="sb-search">
-							<form>
-								<input class="sb-search-input" placeholder="Поиск пока не работает(( перейдите в каталог" name="search" id="search" type="search">
-								<input class="sb-search-submit" value="" type="submit">
-								<span class="sb-icon-search"> </span>
-							</form>
-						</div>
-				    </div>
+				<h6>Поиск по сайту:<p></p></h6>
+				<form>
+              <input class="place_for_search" type="text" id="text-to-find" value="" placeholder="Поиск" autofocus>              
+              <input class="button_for_search" type="submit" onclick="javascript: FindOnPage('text-to-find',true); return false;" value="Искать" title="Начать поиск">
+			  <input class="button_for_turn_back" type="button" onclick="javascript: FindOnPage('text-to-find',false); return false;" value="Выйти из поиска" title="Отменить поиск">
+            </form>
+				   
 					<!-- search-scripts -->
-					<script src="js/classie.js"></script>
+					
 					<script src="js/uisearch.js"></script>
 						<script>
 							new UISearch( document.getElementById( 'sb-search' ) );
